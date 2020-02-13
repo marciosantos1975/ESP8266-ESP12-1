@@ -319,6 +319,7 @@ void loop() {
   delay(1000);
 
   //Rotina para colocar pinos HIGH / LOW.
+  //
 
   //Rotina do Relé
   digitalWrite(4, HIGH);   // turn the LED on (HIGH is the voltage level)
