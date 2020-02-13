@@ -21,6 +21,8 @@ C:\Firmware - ESP8266\esp_iot_sdk_v1.5.0_15_11_27\esp_iot_sdk_v1.5.0\bin\at\512+
 #include <WiFiUdp.h>
 #include <ArduinoOTA.h>
 
+#include <Arduino.h>
+
 #include <DNSServer.h>
 #include <ESP8266WebServer.h>
 #include "WiFiManager.h"          //https://github.com/tzapu/WiFiManager
@@ -322,7 +324,7 @@ void loop() {
   digitalWrite(4, HIGH);   // turn the LED on (HIGH is the voltage level)
   delay(50000);                       // wait for a second
   digitalWrite(4, LOW);    // turn the LED off by making the voltage LOW
-  delay(50000);                     // wait for a second
+  delay(500000);                     // wait for a second
 
   /*
   //Rotina do Led Green
