@@ -322,7 +322,7 @@ void loop() {
   digitalWrite(4, HIGH);   // turn the LED on (HIGH is the voltage level)
   delay(50000);                       // wait for a second
   digitalWrite(4, LOW);    // turn the LED off by making the voltage LOW
-  delay(10000);                     // wait for a second
+  delay(50000);                     // wait for a second
 
   /*
   //Rotina do Led Green
